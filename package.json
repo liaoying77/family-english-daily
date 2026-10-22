@@ -1,0 +1,13 @@
+{
+  "name": "family-english-daily",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A bilingual parenting English practice space with listening, shadowing, dictation and an English coach.",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=22.13.0" },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env.local server/index.mjs",
+    "test": "node --test test/*.test.mjs"
+  }
+}
